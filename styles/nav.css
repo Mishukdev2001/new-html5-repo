@@ -1,0 +1,14 @@
+nav>ul{
+    display: flex;
+    
+}
+
+nav li{
+   list-style: none;
+   margin-right: 10px;
+   text-align: left;
+}
+
+li>a{ 
+    text-decoration: none;
+}
