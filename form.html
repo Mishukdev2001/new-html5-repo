@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>pitha-form</title>
+    <link rel="stylesheet" href="styles/form.css">
 </head>
 <body>
     <header>
@@ -17,9 +18,43 @@
         </nav>
     </header>
     <main>
-        <form>
-            
-        </form>
+     <h2>MDN Pitha Company</h2>
+           <form>
+            <section>
+                <label for="name">Your Name:
+                    <input id="name" type="text" placeholder="your name">
+                </label>
+                <label for="email">Your Email:
+                    <input id="email" type="text" placeholder="your email">
+                </label>
+                <label for="phone">Your Phone:
+    <input id="phone" type="text" placeholder="your phone">
+                </label>
+            </section>
+            <section>
+                <fieldset>
+                    <legend>pic only one pitha</legend>
+                    <label for="Chitoy">
+                        <input type="radio" name="pitha" id="chitoy">Chitoy
+                    </label>
+                    <label for="vapa">
+                        <input type="radio" name="pitha" id="vapa">Vapa                    </label>
+                        <label for="Puri">
+<input type="radio" name="pitha" id="Puri">Puri
+                        </label>
+                </fieldset>
+            </section>
+            <section>
+                <fieldset>
+                    <legend>Information for some pitha</legend>
+                    <textarea name="" id="" cols="20" rows="10"></textarea>
+                </fieldset>
+            </section>
+            <section>
+                <input type="reset" value="Reset">
+                <input type="submit" value="Submit">
+            </section>
+           </form>
     </main>
 </body>
 </html>
